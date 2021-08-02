@@ -16,7 +16,7 @@
     <dubbo:protocol name="dubbo" port="20880" />
 
     <!-- 声明需要暴露的服务接口 -->
-    <dubbo:service interface="org.apache.dubbojs.service.HelloService" ref="demoService" group="a" version="0.0.0" />
+    <dubbo:service interface="org.apache.dubbojs.service.HelloService" ref="demoService" group="a" version="1.0.0" />
 
     <!-- 和本地bean一样实现服务 -->
     <bean id="demoService" class="org.apache.dubbojs.service.HelloServiceImpl" />
