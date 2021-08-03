@@ -28,7 +28,6 @@ public class Main {
 
         HelloService helloService = (HelloService) context.getBean("helloService"); // 获取远程服务代理
         System.out.println(helloService.sayHello());
-
         System.out.println(helloService.getUser());
 
         try {
